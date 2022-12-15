@@ -11,7 +11,7 @@ import SwiftUI
 struct BirthDateVerifyApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            RefillMedsView()
         }
     }
 }

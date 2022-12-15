@@ -12,6 +12,8 @@
 		4AF7D017294BB9180095B8C0 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4AF7D016294BB9180095B8C0 /* Assets.xcassets */; };
 		4AF7D01A294BB9180095B8C0 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4AF7D019294BB9180095B8C0 /* Preview Assets.xcassets */; };
 		4AF7D021294BB9830095B8C0 /* BirthdateValidator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AF7D020294BB9820095B8C0 /* BirthdateValidator.swift */; };
+		4AF7D023294BC0430095B8C0 /* RefillMedsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AF7D022294BC0430095B8C0 /* RefillMedsView.swift */; };
+		4AF7D025294BC2510095B8C0 /* PaymentMedsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AF7D024294BC2510095B8C0 /* PaymentMedsView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -21,6 +23,8 @@
 		4AF7D016294BB9180095B8C0 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4AF7D019294BB9180095B8C0 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		4AF7D020294BB9820095B8C0 /* BirthdateValidator.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BirthdateValidator.swift; sourceTree = "<group>"; };
+		4AF7D022294BC0430095B8C0 /* RefillMedsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RefillMedsView.swift; sourceTree = "<group>"; };
+		4AF7D024294BC2510095B8C0 /* PaymentMedsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PaymentMedsView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -55,6 +59,8 @@
 			children = (
 				4AF7D012294BB9130095B8C0 /* BirthDateVerifyApp.swift */,
 				4AF7D020294BB9820095B8C0 /* BirthdateValidator.swift */,
+				4AF7D022294BC0430095B8C0 /* RefillMedsView.swift */,
+				4AF7D024294BC2510095B8C0 /* PaymentMedsView.swift */,
 				4AF7D014294BB9130095B8C0 /* ContentView.swift */,
 				4AF7D016294BB9180095B8C0 /* Assets.xcassets */,
 				4AF7D018294BB9180095B8C0 /* Preview Content */,
@@ -140,7 +146,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				4AF7D025294BC2510095B8C0 /* PaymentMedsView.swift in Sources */,
 				4AF7D015294BB9130095B8C0 /* ContentView.swift in Sources */,
+				4AF7D023294BC0430095B8C0 /* RefillMedsView.swift in Sources */,
 				4AF7D013294BB9130095B8C0 /* BirthDateVerifyApp.swift in Sources */,
 				4AF7D021294BB9830095B8C0 /* BirthdateValidator.swift in Sources */,
 			);
