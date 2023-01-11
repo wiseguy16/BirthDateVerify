@@ -25,6 +25,9 @@ struct PaymentMedsView: View {
       Spacer()
     }
     .padding()
+    .background(
+      AngularGradient(gradient: Gradient(colors: [.green, .blue, .white, .green]), center: .center)
+    )
   }
   
 }

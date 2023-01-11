@@ -38,11 +38,14 @@ struct RefillMedsView: View {
           Button(action: {
             proceed.toggle()
           }, label: {
-            Text("Destination Preview >")
+            Text("Destination Preview >").foregroundColor(.black)
           })
         }
       }
       .padding()
+      .background(
+        AngularGradient(gradient: Gradient(colors: [.blue, .white, .pink]), center: .center)
+      )
       .validatingBirthDate(dateOnRecord: dateOnRecord, isShowing: $showBirthDateAlert, proceedToNext: $proceed)
     }
   }
